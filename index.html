@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c40cc86c7b.js" crossorigin="anonymous"></script>
+    
+    
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <h2 class="nav-taxt">Portfolio<span>.</span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-text">
+                <h1>Hello..<br>
+                I'm <span>Soumya</span><br> Manna From Kolkata.</h1>
+            </div>
+            <h1>I'm a <span class="text"></span> </h1>
+            <a href="#" class="btn1">Download CV</a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/b13d5e7d-8c7d-46fd-b14b-d46a74682c0b.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Myself Soumya Manna.To become a successful expert in the field of Information Technology by channelizing 
+                        my technical knowledge and skills to ensure personal and professional growth and to 
+                        contribute to the prosperity of the organization. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links"onclick="opentab('hobby')">Hobby</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Primary Skills:</span><br>Programming Language: C, C++, Javascript, Python<br>Framework: ReactJs, NodeJs<br>Database: Mysql, MongoDb</li>
+                            <li><span>Secondary Skills:</span><br>Docker, Github</li>
+                            <li><span>Documentation:</span><br>MS Word, MS Power Point, MS Excel</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education" >
+                        <ul>
+                            <li><span>Secondary:</span><br>Board:WBBSE</li>
+                            <li><span>Higher Secondary:</span><br>Stream: Science<br>Board:WBCHSE</li>
+                            <li><span>Graduation:</span><br>B.Tech in CSE from University of Engineering and Management, Kolkata</li>
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="hobby">
+                        <ul>
+                            <li><span>Portrait Sketching</span></li>
+                        </ul>
+                    </div>       
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png">
+                    <div class="layer">
+                        <h3>Food Ordering Site</h3>
+                        <p>here its a food ordering site  </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>Food Ordering Site</h3>
+                        <p>here its a food ordering site  </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                        <h3>Food Ordering Site</h3>
+                        <p>here its a food ordering site  </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div> 
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> soumyamanna729@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7044765372 / 8100493488</p>
+                    <div class="social-icons">
+                        
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                       
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+  
+   <script src="app.js"></script> 
+   <footer><script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script></footer>
+</body>
+</html>
